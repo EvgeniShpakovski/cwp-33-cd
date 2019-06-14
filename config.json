@@ -1,0 +1,41 @@
+{
+  "db": {
+    "development": {
+      "name": "cwp_32",
+      "user": "root",
+      "pass": "saturday1109",
+      "port": 3000,
+      "options": {
+        "dialect": "mysql",
+        "host": "localhost",
+        "encrypt": true,
+        "logging": false,
+        "requestTimeout": 30000
+      },
+      "define": {
+        "timestamps": true,
+        "paranoid": true
+      }
+    },
+    "production": {
+      "name": "d9e5tcpint87as",
+      "user": "yurstooyfeloss",
+      "pass": "98c5a8a921d391bbcfdd8abf6e7cb0010bb6ecacacc09b2612ca0c3d34e7d778",
+      "options": {
+        "host": "ec2-79-125-126-205.eu-west-1.compute.amazonaws.com",
+        "port": 5432,
+        "dialect": "postgres",
+        "define": {
+          "timestamps": false,
+          "paranoid": false,
+          "freezeTableName": true
+        },
+        "logging": false,
+        "dialectOptions": {
+          "ssl": true
+        }
+      }
+    }
+  }
+
+}
