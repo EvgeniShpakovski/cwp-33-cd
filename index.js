@@ -3,7 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { Ability, AbilityBuilder, ForbiddenError } = require('casl');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3005;
 console.log(process.env.NODE_ENV);
 const context = require('./models/index')();
 const insertData = require('./models/test-data');
